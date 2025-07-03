@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mallu Vandi - Coming Soon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .loader {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+        }
+        .loader img {
+            width: 100%;
+            max-width: 250px;
+            filter: grayscale(100%);
+        }
+        .pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .caralxvgh {
+            margin: 0 auto ;
+            width: 100%;
+            max-width: 250px;
+            filter: grayscale(100%);
+            animation: pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            z-index: 0;
+        }
+        .diver{
+            position: absolute;
+            top: 68%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .diver {
+                top: 75%;
+            }
+            .caralxvgh {
+                width: 100%;
+                max-width: 200px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <div class="text-center px-4 w-full max-w-md">
+            
+                <!-- Car Animation -->
+            <a href="https://www.instagram.com/malluvandis/?hl=en">
+                <img class="caralxvgh" src="https://cdn.dribbble.com/users/145629/screenshots/1944279/loader0001.gif" alt="Vintage car loading animation" class="mx-auto mb-6">
+            </a>
+            <div class="diver" style="margin-top: -50px; z-index: 100;">
+                <p class="text-lg text-gray-600 mb-6">Coming Soon...</p>
+                <p style="margin-top: -25px;" class="text-sm text-gray-500 mb-6">Stay tuned for the launch of our new platform for buying and selling vehicles in Kerala.</p>
+
+            </div>
+                        
+    </div>
+</body>
+</html>
